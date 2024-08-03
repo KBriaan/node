@@ -1,9 +1,0 @@
-const amount =9.9999999
-if (amount < 10){
-    console.log("small number")
-}
-else{
-    console.log("large number")
-}
-
-console.log(`hey it is my first node js app!!!`)
