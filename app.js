@@ -6,8 +6,14 @@
 //module-info about the current module
 //proces -info about where the program is being executed
 
-console.log(__dirname)
 
-setInterval(()=>{
-console.log("Hello world")
-}, 10)
+//Modules
+
+const john ='john'
+const susan ='susan'
+const sayHi =(name)=>{
+    console.log(`Hello there ${name}`)
+}
+sayHi('peter')
+sayHi(john)
+sayHi(susan)
