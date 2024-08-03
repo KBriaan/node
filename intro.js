@@ -13,3 +13,15 @@ console.log(__dirname)
 setInterval(()=>{
 console.log("Hello world")
 }, 10)
+
+// intro to modules
+const john ='john'
+const susan ='susan'
+const sayHi =(name)=>{
+    console.log(`Hello there ${name}`)
+}
+sayHi('peter')
+sayHi(john)
+sayHi(susan)
+
+//modules
