@@ -12,7 +12,9 @@
 //modules - these are encapsulated code
 
 
-const names = require('./names')
-sayHi('peter')
-sayHi(john)
-sayHi(susan)
+const names = require('./names');
+console.log(names)
+
+// sayHi('peter')
+// sayHi(john)
+// sayHi(susan)
