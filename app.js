@@ -13,9 +13,10 @@
 
 
 const names = require('./names');
-const sayHi= require('./utils')
-console.log(names)
+const sayHi= require('./utils');
+const data =require ('./alternative')
+require('./grenade')
 
-sayHi('peter')
-sayHi(names.john)
-sayHi(names.susan)
+// sayHi('peter')
+// sayHi(names.john)
+// sayHi(names.susan)
