@@ -11,9 +11,7 @@
 // COMON JSON, every file in node is a module
 //modules - these are encapsulated code
 
-const secret = "SUPER SECRET"
-const john ='john'
-const susan ='susan'
+
 const sayHi =(name)=>{
     console.log(`Hello there ${name}`)
 }
