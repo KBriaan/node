@@ -11,4 +11,4 @@ const first = readFileSync(firstPath, 'utf8');
 // Write to the second file
 writeFileSync(secondPath, first, 'utf8');
 
-console.log(first, "Written to second.txt");
+console.log(first );
