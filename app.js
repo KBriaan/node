@@ -13,8 +13,9 @@
 
 
 const names = require('./names');
+const sayHi= require('./utils')
 console.log(names)
 
-// sayHi('peter')
-// sayHi(john)
-// sayHi(susan)
+sayHi('peter')
+sayHi(names.john)
+sayHi(names.susan)
