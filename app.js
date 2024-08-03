@@ -12,9 +12,7 @@
 //modules - these are encapsulated code
 
 
-const sayHi =(name)=>{
-    console.log(`Hello there ${name}`)
-}
+
 sayHi('peter')
 sayHi(john)
 sayHi(susan)
